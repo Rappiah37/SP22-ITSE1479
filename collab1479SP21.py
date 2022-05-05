@@ -27,7 +27,7 @@ def main():
     jumpTable = {}
     jumpTable['1'] = smileyFunction       # Smiley - call to function goes here
     jumpTable['2'] = stub                 # Alvarez - call to function goes here
-    jumpTable['3'] = stub                 # Appiah - call to function goes here
+    jumpTable['3'] = appiahFunction       # Appiah - call to function goes here
     jumpTable['4'] = stub                 # Balderas - call to function goes here
     jumpTable['5'] = stub                 # Butler - call to function goes here
     jumpTable['6'] = stub                 # Kennedy - call to function goes here
@@ -116,6 +116,16 @@ def stub():
     print("Not implemented at this time.  Check back later.")
     print("Press ENTER to continue.")
     input()    
+# *****************************************************************************************
+# FUNCTION:         appiahFunction
+# DESCRIPTION:      This function calculates the number of Characters in your lastname
+# *****************************************************************************************
+def appiahFunction():
+    print()
+    lastName = input("Please Enter your LastName: "  )
+    print()
+    print("The number of Characters in your lastName is:" , len(lastName))
+    print()
 
 # *****************************************************************************************
 # FUNCTION:         smileyFunction
